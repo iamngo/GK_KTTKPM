@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Withdraw Money</title>
+</head>
+<body>
+<h2>Withdraw Money</h2>
+<form action="/transaction/withdraw/new" method="post">
+    <label for="accountId">Account ID:</label>
+    <input required type="text" id="accountId" name="accountId"/>
+    <br>
+    <label for="amount">Amount:</label>
+    <input required type="number" id="amount" name="amount"/>
+    <br>
+    <button type="submit">Withdraw</button>
+</form>
+</body>
+</html>
